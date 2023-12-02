@@ -1,0 +1,24 @@
+# Ignore system and editor files
+*.iml
+*.swp
+*~
+
+# Ignore macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore Windows specific files
+Thumbs.db
+ehthumbs.db
+
+# Ignore Helm plugin specific files
+helm-plugin-cache/
+
+# Ignore Helm-specific files and directories
+charts/
+*.tgz
+*.prov
+*.orig
+*.bak
+*.tmp
